@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+}
+
+.header1 {
+    background-image: url('/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 280px 0;
+}
+
+.div-2 {
+    margin: auto;
+    padding: 20px;
+}
+
+.div-2 img {
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        padding: 20px 30px;
+        width: 100%;
+    }
+}
